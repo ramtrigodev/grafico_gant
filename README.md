@@ -1,5 +1,4 @@
 # grafico_gant
-
 ```mermaid
 gantt
     title Exemplo de Gráfico de Gantt
@@ -13,10 +12,13 @@ gantt
     section Finalização
     Testes                      :c1, 2025-09-05, 5d
     Entrega                     :c2, after c1, 2d
+```
 
+```mermaid
 flowchart TD
-        A(["Começar"])
-        A --> B{"Decision"}
-        B --> C["Option A"]
-        B --> E["Option C"]
-        B --> D["Option B"]
+    A(["Começar"])
+    A --> B{"Decision"}
+    B --> C["Option A"]
+    B --> E["Option C"]
+    B --> D["Option B"]
+```
