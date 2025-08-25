@@ -2,9 +2,9 @@
 ```mermaid
 gantt
     title Exemplo de Gráfico de Gantt
-    dateFormat  YYYY-MM-DD
+    dateFormat  DD-MM-YYYY
     section Planejamento
-    Levantamento de requisitos :a1, 2025-08-18, 3d
+    Levantamento de requisitos :a1, 18-08-2025, 3d
     Análise técnica             :a2, after a1, 2d
     section Execução
     Desenvolvimento front-end   :b1, 2025-08-22, 7d
