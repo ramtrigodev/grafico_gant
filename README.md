@@ -7,7 +7,7 @@
     
     section Planejamento
     Requisitos      :done, req, 2023-01-01, 10d
-    Design          :active, des, 2023-01-10, 15d
+    Design          :done, des, 2023-01-10, 15d
     
     section Desenvolvimento
     Codificação     :dev, 2023-01-25, 30d
