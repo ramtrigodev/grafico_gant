@@ -1,4 +1,4 @@
-<img width="470" height="412" alt="image" src="https://github.com/user-attachments/assets/bcd649bb-f94f-4d7d-b2e5-93be0b7a965c" /><img width="470" height="412" alt="image" src="https://github.com/user-attachments/assets/fe335db3-04e9-471d-a6b7-08bb13e36f07" />
+
 ```mermaid
     gantt
     title Exemplo de Gráfico de Gantt
