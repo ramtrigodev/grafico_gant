@@ -12,16 +12,15 @@
     3º Bimestre     :a3, 2025-08-01, 60d
     4º Bimestre     :a4, after a3, 60d
 
-    %% Definindo os status
+    %% Apenas funciona fora do GitHub
     classDef done fill:#4caf50,stroke:#2e7d32,color:#fff
     classDef active fill:#ffc107,stroke:#ffa000,color:#000
     classDef pending fill:#e0e0e0,stroke:#9e9e9e,color:#000
 
-    %% Atribuindo status
-    class a1 done
-    class a2 done
+    class a1,a2 done
     class a3 active
     class a4 pending
+
 
   
 ```
