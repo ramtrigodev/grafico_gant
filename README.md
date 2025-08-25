@@ -5,7 +5,7 @@ gantt
     dateFormat  DD-MM-YYYY
     section 1º Semestre
     1º Bimestre :a1, 2025-02-02, 60d
-   2º Bimestre  :a2, after a1, 60 D
+   2º Bimestre  :a2, after a1, 60 d
   
 ```
 
