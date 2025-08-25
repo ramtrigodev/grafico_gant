@@ -3,9 +3,9 @@
 gantt
     title Exemplo de Gráfico de Gantt
     dateFormat  DD-MM-YYYY
-    section 1º Bimestre
-    Levantamento de requisitos :a1, 2025-08-13, 10d
-    Análise técnica             :a2, after a1, 2d
+    section 1º Semestre
+    1º Bimestre :a1, 2025-02-02, 60d
+   2º Bimestre  :a2, after a1, 60 D
     section Execução
     Desenvolvimento front-end   :b1, 2025-08-22, 7d
     Desenvolvimento back-end    :b2, after b1, 7d
