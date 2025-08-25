@@ -16,9 +16,9 @@ gantt
 
 ```mermaid
 flowchart TD
-    A(["Começar"])
-    A --> B{"Decision"}
-    B --> C["Option A"]
-    B --> E["Option C"]
-    B --> D["Option B"]
+    A(["Exemplo"])
+    A --> B{"Faça um Escolha"}
+    B --> C["A"]
+    B --> E["B"]
+    B --> D["C"]
 ```
