@@ -3,7 +3,7 @@
 gantt
     title Exemplo de Gráfico de Gantt
     dateFormat  DD-MM-YYYY
-    section Planejamento
+    section 1º Bimestre
     Levantamento de requisitos :a1, 2025-08-13, 10d
     Análise técnica             :a2, after a1, 2d
     section Execução
