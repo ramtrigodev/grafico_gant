@@ -25,8 +25,8 @@ flowchart TD
 
 ```mermaid
 graph TD;
-  A[inicio] --> B{Decisão};
-  B -->|Sim| C[Resultado 1];
- B 
+  A[inicio] --> B{Nota >6};
+  B -->|Sim| C[Aprovado];
+ B --> |Não| C[Reprovado];
 
 ```
