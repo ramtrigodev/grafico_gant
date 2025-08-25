@@ -4,7 +4,7 @@ gantt
     title Exemplo de Gráfico de Gantt
     dateFormat  DD-MM-YYYY
     section 1º Semestre
-    1º Bimestre :a1, 02-02-20025, 60d
+    1º Bimestre :a1, 02-02-2025, 60d
     2º Bimestre  :a2, after a1, 60d
     section  2º Semestre
    3º Bimestre :a3, 01-08-2025,60d
