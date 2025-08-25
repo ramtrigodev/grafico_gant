@@ -1,6 +1,5 @@
 
 ```mermaid
-gantt
   gantt
     title Exemplo de Gráfico de Gantt
     dateFormat  YYYY-MM-DD
