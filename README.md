@@ -22,3 +22,9 @@ flowchart TD
     B --> E["B"]
     B --> D["C"]
 ```
+
+```mermaid
+graph TD;
+  A[inicio] --> B{Decisão};
+
+```
