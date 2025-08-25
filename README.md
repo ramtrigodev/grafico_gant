@@ -5,7 +5,7 @@
     dateFormat  YYYY-MM-DD
 
     section 1º Semestre
-    1º Bimestre ✅ Concluído       :a1, 2025-02-02, 60d
+    1º Bimestre 🔴 Concluído       :a1, 2025-02-02, 60d
     2º Bimestre ✅ Concluído       :a2, after a1, 60d
 
     section 2º Semestre
