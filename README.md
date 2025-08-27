@@ -10,7 +10,7 @@
     Design          :active, des, 2023-01-10, 15d
     
     section Desenvolvimento
-    Codificação     :review,dev, 2023-01-25, 30d
+    Codificação     :active, dev, 2023-01-25, 30d
     Testes          :test, after dev, 15d
     
     section Lançamento
