@@ -35,6 +35,6 @@ flowchart TD
 graph TD;
   A[inicio] --> B{Nota >6};
   B -->|Sim| C[Aprovado];
- B --> |Não| C[Reprovado];
+ B --> |Não| D[Reprovado];
 
 ```
