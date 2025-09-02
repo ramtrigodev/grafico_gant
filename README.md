@@ -32,9 +32,19 @@ flowchart TD
 ```
 
 ```mermaid
+
 graph TD;
   A[inicio] --> B{Nota >6};
   B -->|Sim| C[Aprovado];
  B --> |Não| D[Reprovado];
+
+```
+
+```mermaid
+graph TD
+  A[Pequena equipe<br>Baixa criticidade] -->|Crystal Clear| B
+  C[Média equipe<br>Média criticidade] -->|Crystal Orange| D
+  E[Grande equipe<br>Alta criticidade] -->|Crystal Red| F
+
 
 ```
