@@ -60,12 +60,12 @@ graph TD
 ```mermaid
 graph TD
     subgraph Matriz
-        A1["C8"]:::branco
+        A1["C8"]:::branco   B1["D8"]:::branco
         A2["C20"]:::amarelo
         A3["V50"]:::laranja
         A4["V100"]:::vermelho
 
-        B1["D8"]:::branco
+       
         B2["E20"]:::amarelo
         B3["E50"]:::laranja
         B4["E100"]:::vermelho
