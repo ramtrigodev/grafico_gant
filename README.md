@@ -44,7 +44,7 @@ graph TD;
 ```mermaid
 graph TD
     subgraph Matriz
-        A1["C8"]:::branco-->  A2["C20"]:::amarelo --> A3["V50"]:::laranja --> A4["V100"]:::vermelho
+        A1["Situação 1\nStartup - MVP\n5 pessoas, baixa criticidade"]:::branco-->  A2["C20"]:::amarelo --> A3["V50"]:::laranja --> A4["V100"]:::vermelho
         B1["D8"]:::branco --> B2["E20"]:::amarelo --> B3["E50"]:::laranja --> B4["E100"]:::vermelho
         C1["D8"]:::branco --> C2["D20"]:::amarelo --> C3["D50"]:::laranja --> C4["D100"]:::vermelho
         D1["C8"]:::branco-->  D2["C20"]:::amarelo --> D3["C50"]:::laranja --> D4["C100"]:::vermelho
