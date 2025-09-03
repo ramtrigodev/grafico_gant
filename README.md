@@ -59,17 +59,41 @@ graph TD
 ```
 ```mermaid
 graph TD
-  
+    subgraph Matriz Crystal
+        A1["C8"]:::branco
+        A2["C20"]:::amarelo
+        A3["C40"]:::laranja
+        A4["C80+"]:::vermelho
+
+        B1["D8"]:::branco
+        B2["D20"]:::amarelo
+        B3["D40"]:::laranja
+        B4["D80+"]:::vermelho
+
+        C1["E8"]:::branco
+        C2["E20"]:::amarelo
+        C3["E40"]:::laranja
+        C4["E80+"]:::vermelho
+
+        D1["L8"]:::branco
+        D2["L20"]:::amarelo
+        D3["L40"]:::laranja
+        D4["L80+"]:::vermelho
+    end
 
     %% Marcações das situações
-    S1["🔵 Situação 1\nProjeto pequeno, baixa criticidade"]:::situacao --> A2
-    S2["🔴 Situação 2\nProjeto grande, alta criticidade"]:::situacao --> D3
+    S1["🔵 Situação 1\nStartup - MVP\n5 pessoas, baixa criticidade"]:::situacao --> A1
+    S2["🟢 Situação 2\nE-commerce\n15 pessoas, criticidade média"]:::situacao --> B2
+    S3["🟡 Situação 3\nBanco\n40 pessoas, criticidade alta"]:::situacao --> C3
+    S4["🔴 Situação 4\nHospital\n80 pessoas, risco de vidas"]:::situacao --> D4
 
+    %% Estilos
     classDef branco fill:#fff,stroke:#000,stroke-width:1px;
     classDef amarelo fill:#FFD84D,stroke:#000,stroke-width:1px;
     classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
     classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
-    classDef situacao fill:#4DA3FF,stroke:#000,stroke-width:1px,stroke-dasharray: 5 5;
+    classDef situacao fill:#CCE5FF,stroke:#000,stroke-width:1px,stroke-dasharray: 5 5;
+
 
 ```
 
