@@ -61,13 +61,12 @@ graph TD
 graph TD
 
 
-    %% Marcações das situações
+   
     S1["🔵 Situação 1\nStartup - MVP\n5 pessoas, baixa criticidade"]:::situacao --> A1
     S2["🟢 Situação 2\nE-commerce\n15 pessoas, criticidade média"]:::situacao --> B2
     S3["🟡 Situação 3\nBanco\n40 pessoas, criticidade alta"]:::situacao --> C3
     S4["🔴 Situação 4\nHospital\n80 pessoas, risco de vidas"]:::situacao --> D4
 
-    %% Estilos
     classDef branco fill:#fff,stroke:#000,stroke-width:1px;
     classDef amarelo fill:#FFD84D,stroke:#000,stroke-width:1px;
     classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
