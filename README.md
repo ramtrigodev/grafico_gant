@@ -59,27 +59,7 @@ graph TD
 ```
 ```mermaid
 graph TD
-    subgraph Matriz Crystal
-        A1["C8"]:::branco
-        A2["C20"]:::amarelo
-        A3["C40"]:::laranja
-        A4["C80+"]:::vermelho
-
-        B1["D6"]:::branco
-        B2["D20"]:::amarelo
-        B3["D40"]:::laranja
-        B4["D80+"]:::vermelho
-
-        C1["E6"]:::branco
-        C2["E20"]:::amarelo
-        C3["E40"]:::laranja
-        C4["E80+"]:::vermelho
-
-        D1["L6"]:::branco
-        D2["L20"]:::amarelo
-        D3["L40"]:::laranja
-        D4["L80+"]:::vermelho
-    end
+  
 
     %% Marcações das situações
     S1["🔵 Situação 1\nProjeto pequeno, baixa criticidade"]:::situacao --> A2
