@@ -59,35 +59,37 @@ graph TD
 ```
 ```mermaid
 graph TD
-    subgraph Matriz
-        A1["C8"]:::branco   B1["D8"]:::branco
+    subgraph Matriz Crystal
+        A1["C8"]:::branco
         A2["C20"]:::amarelo
-        A3["V50"]:::laranja
-        A4["V100"]:::vermelho
+        A3["C40"]:::laranja
+        A4["C80+"]:::vermelho
 
-       
-        B2["E20"]:::amarelo
-        B3["E50"]:::laranja
-        B4["E100"]:::vermelho
+        B1["D6"]:::branco
+        B2["D20"]:::amarelo
+        B3["D40"]:::laranja
+        B4["D80+"]:::vermelho
 
-        C1["D8"]:::branco
-        C2["D20"]:::amarelo
-        C3["D50"]:::laranja
-        C4["D100"]:::vermelho
+        C1["E6"]:::branco
+        C2["E20"]:::amarelo
+        C3["E40"]:::laranja
+        C4["E80+"]:::vermelho
 
-        D1["C8"]:::branco
-        D2["C20"]:::amarelo
-        D3["C50"]:::laranja
-        D4["C100"]:::vermelho
+        D1["L6"]:::branco
+        D2["L20"]:::amarelo
+        D3["L40"]:::laranja
+        D4["L80+"]:::vermelho
     end
+
+    %% Marcações das situações
+    S1["🔵 Situação 1\nProjeto pequeno, baixa criticidade"]:::situacao --> A2
+    S2["🔴 Situação 2\nProjeto grande, alta criticidade"]:::situacao --> D3
 
     classDef branco fill:#fff,stroke:#000,stroke-width:1px;
     classDef amarelo fill:#FFD84D,stroke:#000,stroke-width:1px;
     classDef laranja fill:#FFA233,stroke:#000,stroke-width:1px;
     classDef vermelho fill:#E64C3C,stroke:#000,stroke-width:1px;
-
-
+    classDef situacao fill:#4DA3FF,stroke:#000,stroke-width:1px,stroke-dasharray: 5 5;
 
 ```
-
 
